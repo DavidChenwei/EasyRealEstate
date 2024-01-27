@@ -1,38 +1,50 @@
 [
     {
         "Id": 1,
+        "SellRent":1,
         "Name": "Birla House",
         "Type": "House",
-        "Price": 24100
+        "Price": 24100,
+        "Image": "prop-1"
     },
     {
         "Id": 2,
+        "SellRent":1,
         "Name": "Ada House",
         "Type": "House",
-        "Price": 14200
+        "Price": 14200,
+        "Image": "prop-2"
     },
     {
         "Id": 3,
+        "SellRent":2,
         "Name": "Eva House",
         "Type": "Duplex",
-        "Price": 15100
+        "Price": 15100,
+        "Image": "prop-3"
     },
     {
         "Id": 4,
+        "SellRent":2,
         "Name": "Blizzard House",
         "Type": "Villa",
-        "Price": 32400
+        "Price": 32400,
+        "Image": "prop-4"
     },
     {
         "Id": 5,
+        "SellRent":1,
         "Name": "Macro House",
         "Type": "House",
-        "Price": 14300
+        "Price": 14300,
+        "Image": "prop-5"
     },
     {
         "Id": 6,
+        "SellRent":2,
         "Name": "Pearl White House",
         "Type": "Apartment",
-        "Price": 28000
+        "Price": 28000,
+        "Image": "prop-6"
     }
 ]
