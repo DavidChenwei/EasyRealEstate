@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
@@ -8,7 +9,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class PropertyDetailComponent implements OnInit {
   public propertyId!: number;
-  constructor(private route: ActivatedRoute, private router:Router) { }
+  constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
     this.propertyId = this.route.snapshot.params['id'];
@@ -17,7 +18,7 @@ export class PropertyDetailComponent implements OnInit {
     });
   }
 
-  onSelectNext(){
+  onSelectNext() {
     this.propertyId++;
     this.router.navigate(['/property-detail', this.propertyId]);
   }
